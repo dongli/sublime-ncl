@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+begin
+
+	${1:; begin your script}
+
+end
+]]></content>
+	<tabTrigger>beg</tabTrigger>
+	<scope>source.ncl</scope>
+	<description>Begin NCL script block</description>
+</snippet>
