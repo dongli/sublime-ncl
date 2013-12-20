@@ -297,7 +297,7 @@
 			<key>comment</key>
 			<string>NCL control keyword</string>
 			<key>match</key>
-			<string>\b(do|end do|if|end if|then|else|while|break|continue|return)\b</string>
+			<string>\b(do|end|if|then|else|while|break|continue|return)\b</string>
 			<key>name</key>
 			<string>keyword.control.source.ncl</string>
 		</dict>

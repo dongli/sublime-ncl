@@ -183,7 +183,7 @@
 		{
 			"name": "keyword.control.source.ncl",
 			"comment": "NCL control keyword",
-			"match": "\\b(do|end do|if|end if|then|else|while|break|continue|return)\\b"
+			"match": "\\b(do|end|if|then|else|while|break|continue|return)\\b"
 		},
 		{
 			"name": "support.function.source.ncl",

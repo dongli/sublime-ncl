@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+do ${1:i} = ${2:0}, ${3:n}
+	${4:; write loop content}
+end do
+]]></content>
+	<tabTrigger>do</tabTrigger>
+	<scope>source.ncl</scope>
+	<description>NCL do loop</description>
+</snippet>

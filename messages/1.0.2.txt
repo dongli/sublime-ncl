@@ -1,0 +1,6 @@
+Update:
+
+- Add comment toggle, you can comment a block of script by pressing 'ctrl-/' in
+  Windows/Linux and 'command-b' in Mac back and forth.
+- Add 'do', 'if', 'ifelse', 'openwks' snippets.
+- Add all colormaps into completion list.

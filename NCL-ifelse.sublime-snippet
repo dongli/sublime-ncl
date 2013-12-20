@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+if (${1:conditions}) then
+	${2:; write branch}
+else
+	${3:; write else branch}
+end if
+]]></content>
+	<tabTrigger>ifelse</tabTrigger>
+	<scope>source.ncl</scope>
+	<description>NCL if-else condition</description>
+</snippet>
