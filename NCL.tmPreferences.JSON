@@ -1,0 +1,13 @@
+{
+	"name": "Comments",
+	"scope": "source.ncl",
+	"settings": {
+		"shellVariables": [
+			{
+				"name": "TM_COMMENT_START",
+				"value": "; "
+			}
+		]
+	},
+	"uuid": "0866707e-bf4d-4fe4-b6d6-79b23f9b11d7"
+}

@@ -1,8 +1,7 @@
 {
     "scope": "source.ncl",
     "completions": [
-        "True",
-        "False",
+        "True", "False",
         "amDataXF",
         "amDataYF",
         "amJust",
@@ -2950,6 +2949,7 @@
         "z2geouv",
         "zonal_mpsi",
         "zonal_mpsi_Wrap",
-        "zonalAve"
+        "zonalAve",
+        "LineArrow", "FillArray", "WindBarb", "CurlyVector"
     ]
 }
