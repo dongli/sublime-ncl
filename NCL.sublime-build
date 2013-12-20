@@ -1,0 +1,4 @@
+{
+	"selector": "source.ncl",
+	"shell_cmd": "cd ${file_path}; ncl ${file}"
+}

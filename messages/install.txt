@@ -1,0 +1,14 @@
+Introduction:
+
+	This is the NCL configuration for Sublime Text editor.
+	
+	Features:
+	
+	- Syntax highlighting for NCL following NCL website.
+	- Completion list for long and hard to remember NCL functions and resources.
+	- Some useful snippets, e.g. 'load' (try it yourself).
+	- Running NCL without leaving editor.
+
+Authors:
+
+	- Li Dong <dongli@lasg.iap.ac.cn>

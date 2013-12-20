@@ -1,0 +1,5 @@
+Updates:
+
+- Fix a syntax error for numerics.
+- Add completion list.
+- Add NCL running short cut (press 'ctrl-b' in Windows/Linux or 'command-b' in Mac).
