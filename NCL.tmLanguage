@@ -36,6 +36,14 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>NCL operator</string>
+			<key>match</key>
+			<string>\.(eq|ne|gt|ge|lt|le|not)\.</string>
+			<key>name</key>
+			<string>keyword.operator.source.ncl</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>NCL boolean</string>
 			<key>match</key>
 			<string>\b(True|False)\b</string>
@@ -289,7 +297,7 @@
 			<key>comment</key>
 			<string>NCL keyword</string>
 			<key>match</key>
-			<string>\b(load|begin|end)\b</string>
+			<string>\b(load|begin|end|procedure|function|local)\b</string>
 			<key>name</key>
 			<string>keyword.source.ncl</string>
 		</dict>

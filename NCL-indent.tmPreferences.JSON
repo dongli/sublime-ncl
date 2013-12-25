@@ -3,7 +3,7 @@
 	"scope": "source.ncl",
 	"settings": {
 		"increaseIndentPattern": "^ *(do|if|else)",
-		"decreaseIndentPattern": "^ *end *(do|if)"
+		"decreaseIndentPattern": "^ *(end *(do|if)|else)"
 	},
 	"uuid": "08e5a371-2399-4c48-b0c1-c8f5e0dc5228"
 }

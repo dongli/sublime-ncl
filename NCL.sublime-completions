@@ -2,7 +2,7 @@
     "scope": "source.ncl",
     "completions": [
         "True", "False",
-        "then",
+        "then", "else", "function", "local",
         "amDataXF",
         "amDataYF",
         "amJust",

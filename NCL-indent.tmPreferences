@@ -9,7 +9,7 @@
 	<key>settings</key>
 	<dict>
 		<key>decreaseIndentPattern</key>
-		<string>^ *end *(do|if)</string>
+		<string>^ *(end *(do|if)|else)</string>
 		<key>increaseIndentPattern</key>
 		<string>^ *(do|if|else)</string>
 	</dict>
