@@ -38,7 +38,7 @@
 			<key>comment</key>
 			<string>NCL operator</string>
 			<key>match</key>
-			<string>\.(eq|ne|gt|ge|lt|le|not)\.</string>
+			<string>\.(eq|ne|gt|ge|lt|le|not|and|or)\.</string>
 			<key>name</key>
 			<string>keyword.operator.source.ncl</string>
 		</dict>

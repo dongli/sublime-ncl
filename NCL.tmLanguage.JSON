@@ -21,7 +21,7 @@
 		{
 			"name": "keyword.operator.source.ncl",
 			"comment": "NCL operator",
-			"match": "\\.(eq|ne|gt|ge|lt|le|not)\\."
+			"match": "\\.(eq|ne|gt|ge|lt|le|not|and|or)\\."
 		},
 		{
 			"name": "constant.language.source.ncl",

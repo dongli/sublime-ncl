@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:res}@tr${2:X or Y}Reverse = True
+]]></content>
+	<tabTrigger>res_axis_reverse</tabTrigger>
+	<scope>source.ncl</scope>
+	<description>NCL resource to reverse axis</description>
+</snippet>

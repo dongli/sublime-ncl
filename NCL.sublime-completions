@@ -2,7 +2,7 @@
     "scope": "source.ncl",
     "completions": [
         "True", "False",
-        "then", "else", "function", "local",
+        "then", "else", "function", "local", "continue"
         "amDataXF",
         "amDataYF",
         "amJust",
@@ -2215,7 +2215,10 @@
         "gsn_csm_vector_scalar_map_polar",
         "gsn_csm_x2y",
         "gsn_csm_x2y2",
-        "gsn_csm_xy",
+        {
+            "trigger": "gsn_csm_xy",
+            "contents": "gsn_csm_xy(${1:wks}, ${2:x}, ${3:y}, ${4:res})"
+        },
         "gsn_csm_xy2",
         "gsn_csm_xy3",
         "gsn_csm_y",

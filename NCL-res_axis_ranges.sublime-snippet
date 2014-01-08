@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+${1:res}@trXMinF = ${2:0}
+${1}@trXMaxF = ${3:1}
+${1}@trYMinF = ${4:0}
+${1}@trYMaxF = ${5:1}
+${1}@tmXBTickStartF = ${2}
+${1}@tmXBTickEndF = ${3}
+${1}@tmYLTickStartF = ${4}
+${1}@tmYLTickEndF = ${5}
+]]></content>
+	<tabTrigger>res_axis_ranges</tabTrigger>
+	<scope>source.ncl</scope>
+	<description>NCL resources xy ranges</description>
+</snippet>
