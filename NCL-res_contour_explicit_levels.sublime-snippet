@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:res}@cnLevelSelectionMode = "ExplicitLevels"
+${1}@cnLevels = (/${2:...}/)
+]]></content>
+	<tabTrigger>res_contour_explicit_levels</tabTrigger>
+	<scope>source.ncl</scope>
+	<description>NCL resources explicit contour levels</description>
+</snippet>

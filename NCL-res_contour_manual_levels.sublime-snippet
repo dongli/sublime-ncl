@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${1:res}@cnLevelSelectionMode = "ManualLevels"
+${1}@cnMinLevelValF = ${2:min_level}
+${1}@cnMaxLevelValF = ${3:max_level}
+${1}@cnLevelSpacingF = ${4:level_spacing}
+]]></content>
+	<tabTrigger>res_contour_manual_levels</tabTrigger>
+	<scope>source.ncl</scope>
+	<description>NCL resources manual contour levels</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:plot} = gsn_csm_contour_map(${2:wks}, ${3:var}, ${4:res})
+]]></content>
+	<tabTrigger>gsn_csm_contour_map</tabTrigger>
+	<scope>source.ncl</scope>
+	<description>NCL plot contour</description>
+</snippet>

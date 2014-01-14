@@ -1,0 +1,34 @@
+Update:
+
+- Add function completions:
+
+	gsn_open_wks -> wks = gsn_open_wks("pdf", "figure")
+	gsn_csm_contour_map -> plot = gsn_csm_contour_map(wks, var, res)
+	gsn_csm_xy -> plot = gsn_csm_xy(wks, x, y, res)
+	gsn_panel -> gsn_panel(wks, plots, dims, res)
+	overlay -> overlay(back_plot, front_plot)
+
+- Add resources completions:
+
+	res_axis_ranges ->
+		res@trXMinF = 0
+		res@trXMaxF = 1
+		res@trYMinF = 0
+		res@trYMaxF = 1
+		res@tmXBTickStartF = 0
+		res@tmXBTickEndF = 1
+		res@tmYLTickStartF = 0
+		res@tmYLTickEndF = 1
+	res_axis_reverse -> res@tr{X or Y}Reverse = True
+	res_contour_manual_levels ->
+		res@cnLevelSelectionMode = "ManualLevels"
+		res@cnMinLevelValF = min_level
+		res@cnMaxLevelValF = max_level
+		res@cnLevelSpacingF = level_spacing
+	res_contour_explicit_levels ->
+		res@cnLevelSelectionMode = "ExplicitLevels"
+		res@cnLevels = (/.../)
+
+Authors:
+
+	- Li Dong <dongli@lasg.iap.ac.cn>
