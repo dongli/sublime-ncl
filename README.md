@@ -17,7 +17,7 @@ For scientific users who first meet Sublime Text, I list the following procedure
 - Install *Package Control*:
 
 	* Open Sublime Text, and open console (click menu `View > Show Console` or press ctrl-`).
-	* Paste the codes on .
+	* Paste the codes on [this page](https://sublime.wbond.net/installation).
 	* Restart Sublime Text (don't forget!).
 
 - Install *NCL* package through *Package Control*
