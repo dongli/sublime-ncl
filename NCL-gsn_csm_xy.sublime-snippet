@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-${1:plot} = gsn_csm_xy(${2:wks}, ${3:x}, ${4:y}, ${5:res})
-]]></content>
-	<tabTrigger>gsn_csm_xy</tabTrigger>
-	<scope>source.ncl</scope>
-	<description>NCL plot xy</description>
-</snippet>

@@ -1,0 +1,8 @@
+Update:
+
+- Add the auto-completion for all the NCL functions, so you can just type the
+  function name, and press TAB, the argument list should show up.
+
+Authors:
+
+	- Li Dong <dongli@lasg.iap.ac.cn>

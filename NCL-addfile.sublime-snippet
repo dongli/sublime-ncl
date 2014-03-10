@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-${1:f} = addfile("${2:file_name}", "${3:r}")
-]]></content>
-	<tabTrigger>addfile</tabTrigger>
-	<scope>source.ncl</scope>
-	<description>Open data file</description>
-</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-overlay(${1:back_plot}, ${2:front_plot})
-]]></content>
-	<tabTrigger>overlay</tabTrigger>
-	<scope>source.ncl</scope>
-	<description>NCL overlay plots</description>
-</snippet>

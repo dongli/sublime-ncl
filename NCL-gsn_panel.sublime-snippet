@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-gsn_panel(${1:wks}, ${2:plots}, ${3:dims}, ${4:res})
-]]></content>
-	<tabTrigger>gsn_panel</tabTrigger>
-	<scope>source.ncl</scope>
-	<description>NCL gsn_panel function</description>
-</snippet>

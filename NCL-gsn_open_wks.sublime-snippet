@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-wks = gsn_open_wks("${1:pdf}", "${2:figure}")
-]]></content>
-	<tabTrigger>gsn_open_wks</tabTrigger>
-	<scope>source.ncl</scope>
-	<desription>NCL open workspace</desription>
-</snippet>
