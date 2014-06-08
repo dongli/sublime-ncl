@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${1:res}@tmXMajorGrid = ${2:True}
+${1}@tmYMajorGrid = ${3:True}
+${1}@tmXMajorGridThicknessF = ${4:1.0}
+${1}@tmYMajorGridThicknessF = ${5:1.0}
+${1}@tmXMajorGridLineDashPattern = ${6:2}
+${1}@tmYMajorGridLineDashPattern = ${6}
+]]></content>
+	<tabTrigger>res_xy_grid_lines</tabTrigger>
+	<scope>source.ncl</scope>
+	<description>NCL resources xy grid lines</description>
+</snippet>

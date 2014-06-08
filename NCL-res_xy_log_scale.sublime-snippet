@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:res}@xy${2:X or Y}Style = "Log"
+]]></content>
+	<tabTrigger>res_xy_log_scale</tabTrigger>
+	<scope>source.ncl</scope>
+	<description>NCL resource to draw XY in log scale</description>
+</snippet>
