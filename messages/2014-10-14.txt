@@ -1,0 +1,9 @@
+Update:
+
+- Update the syntax and completions to NCL 6.2.1.
+- Improve the Ruby scripts to auto-generate NCL syntax and completion files.
+- Change the tag rule to date so users can know how new this NCL package is.
+
+Authors:
+
+	- Li Dong <dongli@lasg.iap.ac.cn>

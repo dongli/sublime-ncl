@@ -9,9 +9,9 @@
 	<key>settings</key>
 	<dict>
 		<key>decreaseIndentPattern</key>
-		<string>^ *(end *(do|if)|else)</string>
+		<string>^\s*(end *(do|if)|else)</string>
 		<key>increaseIndentPattern</key>
-		<string>^ *(do|if|else)</string>
+		<string>^\s*(do|if|else)</string>
 	</dict>
 	<key>uuid</key>
 	<string>08e5a371-2399-4c48-b0c1-c8f5e0dc5228</string>
