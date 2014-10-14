@@ -127,6 +127,8 @@ builder = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml|
           string = ''
           page.scan(/^<a name="\w+"><\/a><strong>/).each do |x|
             res = x.match(/"(\w+)"></)[1]
+            # Also remove the trailing '_*' stuff.
+            res.gsub!(/_\w+/, '')
             if not resources.include? res
               string << "#{res}|"
               resources << res
