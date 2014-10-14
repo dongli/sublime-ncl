@@ -48,6 +48,8 @@ page1 = `curl -s #{url_prefix}/Document/Graphics/Resources/list_alpha_res.shtml`
 resources = [] # There may be duplicate links in NCL graphics resources webpage.
 page1.scan(/^<a name="\w+"><\/a><strong>/).each do |x|
   res = x.match(/"(\w+)"></)[1]
+  # Also remove the trailing '_*' stuff.
+  res.gsub! /_\w+/, ''
   if not resources.include? res
     completion_file << "        \"#{res}\",\n"
     resources << res
