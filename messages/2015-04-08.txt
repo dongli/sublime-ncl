@@ -1,0 +1,7 @@
+Update:
+
+- Update the syntax and completions to NCL 6.3.0.
+
+Authors:
+
+	- Li Dong <dongli@lasg.iap.ac.cn>
