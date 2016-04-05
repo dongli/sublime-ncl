@@ -1,0 +1,7 @@
+Update:
+
+- Update the syntax and completions routinely.
+
+Authors:
+
+	- Li Dong <dongli@lasg.iap.ac.cn>
