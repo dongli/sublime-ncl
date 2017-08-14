@@ -1,7 +1,10 @@
 [2015-04-08] Update:
 
 - Update the syntax and completions to NCL 6.3.0.
+- Modified create_ncl_syntax.rb to include * and / as operators
+- Modified create_ncl_syntax.rb to include construct characters (e.g. ->,=>,!,&)
 
 Authors:
 
-	- Li Dong <dongli@lasg.iap.ac.cn>
+    - Li Dong <dongli@lasg.iap.ac.cn>
+    - nug
