@@ -6,5 +6,5 @@
 
 Authors:
 
-	- Li Dong <dongli@lasg.iap.ac.cn>
+    - Li Dong <dongli@lasg.iap.ac.cn>
     - nug
