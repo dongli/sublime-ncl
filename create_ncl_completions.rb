@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby -wU
 
 if File.exist? 'NCL.sublime-completions'
-  print "[Warning]: NCL.sublime-completions exists, delete it!\n"
+  print "[Warning]: NCL.sublime-completions exists, deleting it!\n"
   File.delete 'NCL.sublime-completions'
 end
 
@@ -29,7 +29,8 @@ categories.each do |category|
     rescue
       print page2.match(/(function|procedure) \w+ \(([^\)]*)\)$/m)
       print "[Error]: Failed to extract prototype for #{func}!"
-      exit
+#      exit
+      next
     end
     i = 1
     prototype.each_line do |line|
