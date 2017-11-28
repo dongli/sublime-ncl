@@ -409,7 +409,6 @@
         { "trigger": "isushort", "contents": "isushort(${1:arg})" },
         { "trigger": "isvar", "contents": "isvar(${1:varnames})" },
         { "trigger": "jul2greg", "contents": "jul2greg(${1:julian})" },
-        { "trigger": "kde", "contents": "kde(        { "trigger": "kmeans_as136", "contents": "kmeans_as136(${1:x}, ${2:k}, ${3:opt})" },
         { "trigger": "kolsm2_n", "contents": "kolsm2_n(${1:x}, ${2:y}, ${3:dims})" },
         { "trigger": "kron_product", "contents": "kron_product(${1:a}, ${2:b})" },
         { "trigger": "lapsf", "contents": "lapsf(${1:z}, ${2:zlap})" },
