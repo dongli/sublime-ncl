@@ -1,0 +1,9 @@
+[2017-11-28] Update:
+
+- Update the syntax and completions to NCL 6.4.0.
+- Slightly modified ruby script 'create_ncl_completions.rb' to skip 404 Not Found errors.
+
+Authors:
+
+	- Li Dong <dongli@lasg.iap.ac.cn>
+	- Benjamin Ng <benjamin.ng@csiro.au>
