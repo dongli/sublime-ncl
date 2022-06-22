@@ -44,7 +44,7 @@ builder = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml|
           xml.key "comment"
           xml.string "NCL numerics"
           xml.key "match"
-          xml.string "\\b(\\+|-)?\\d+(\\.\\d+((d|D|e|E)(\\+|-)?\\d+)?)?\\b"
+          xml.string "\\b(\\+|-|\*|/)?\\d+(\\.\\d+((d|D|e|E)(\\+|-|\*|/)?\\d+)?)?\\b"
         }
         xml.dict {
           xml.key "name"
@@ -69,6 +69,14 @@ builder = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml|
           xml.string "NCL boolean"
           xml.key "match"
           xml.string "\\b(True|False)\\b"
+        }
+        xml.dict {
+          xml.key "name"
+          xml.string "constant.character.source.ncl"
+          xml.key "comment"
+          xml.string "NCL constructs"
+          xml.key "match"
+          xml.string "\\b(@|!|&|$|=>|->)\\b"
         }
         xml.dict {
           xml.key "name"

@@ -36,7 +36,7 @@
         <key>comment</key>
         <string>NCL numerics</string>
         <key>match</key>
-        <string>\b(\+|-)?\d+(\.\d+((d|D|e|E)(\+|-)?\d+)?)?\b</string>
+        <string>\b(\+|-|*|/)?\d+(\.\d+((d|D|e|E)(\+|-|*|/)?\d+)?)?\b</string>
       </dict>
       <dict>
         <key>name</key>
@@ -61,6 +61,14 @@
         <string>NCL boolean</string>
         <key>match</key>
         <string>\b(True|False)\b</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>constant.character.source.ncl</string>
+        <key>comment</key>
+        <string>NCL constructs</string>
+        <key>match</key>
+        <string>\b(@|!|&amp;|$|=&gt;|-&gt;)\b</string>
       </dict>
       <dict>
         <key>name</key>
